@@ -1,0 +1,16 @@
+[project]
+name = "deepseek-v3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.3.1",
+    "native-sparse-attention-pytorch>=0.0.45",
+    "numpy>=2.2.3",
+    "pre-commit>=4.1.0",
+    "requests>=2.32.3",
+    "tiktoken>=0.9.0",
+    "torch>=2.6.0",
+    "transformers>=4.49.0",
+]
